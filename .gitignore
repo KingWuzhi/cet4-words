@@ -1,0 +1,23 @@
+# 安卓打包中间产物
+android/build/
+
+# 由 tools/build.py 生成（从 data/words.json + build/app.template.html 可再生）
+android/assets/index.html
+四级单词背诵系统.html
+
+# Python
+__pycache__/
+*.pyc
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 本地导出存档
+cet4-words-*.json
+
+# 本地推送小工具（各人账号不同，不入库）
+push.ps1
